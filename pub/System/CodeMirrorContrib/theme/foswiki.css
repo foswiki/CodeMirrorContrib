@@ -1,0 +1,181 @@
+.CodeMirror-autoresize {
+  height:auto;
+}
+.CodeMirror-autoresize .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.cm-s-foswiki {
+  margin:0px;
+  border:1px solid #ccc;
+  padding:4px 6px;
+  background:#fff;
+  font-size:12px;
+  color:inherit;
+}
+.cm-s-foswiki,
+.cm-s-foswiki pre {
+  /*font-family:"Bitstream Vera Sans Mono", "Andale Mono", monospace;*/
+  /*line-height:1.4;*/
+  font-family:monospace;
+}
+.cm-s-foswiki .CodeMirror-gutters {
+  border-right: 1px solid #ccc;
+  background-color: #f7f7f7;
+
+  border:0;
+  background-color:transparent;
+}
+
+.cm-s-foswiki .CodeMirror-lines {
+  padding:0.3em 1em 0.3em 0;
+}
+
+.cm-s-foswiki .CodeMirror-scroll {
+  margin-left:-6px;
+  margin-top:-4px;
+}
+
+.cm-s-foswiki pre {
+  padding:0;
+}
+
+.cm-s-foswiki.CodeMirror-focused .CodeMirror-selected,
+.cm-s-foswiki.CodeMirror-selected { 
+  background: #c7c7c7;
+  opacity:0.5;
+}
+.cm-s-foswiki.CodeMirror-focused {
+  box-shadow:inset 2px 2px 4px rgba(0,0,0,0.1);
+  border:1px solid #16BEEF;
+}
+
+.cm-s-foswiki.ui-resizable .CodeMirror-vscrollbar {
+  margin-bottom:16px;
+}
+
+.cm-s-foswiki .ui-resizable-se {
+  bottom:0;
+  right:0;
+}
+
+.cm-s-foswiki .CodeMirror-widget .ui-resizable-handle {
+  width: 10px;
+  height: 10px;
+  background: #00AEFF;
+}
+
+.cm-s-foswiki .CodeMirror-width .ui-resizable-n  { top:0; left:50%; }
+.cm-s-foswiki .CodeMirror-width .ui-resizable-e  { right:0; top:50%; }
+.cm-s-foswiki .CodeMirror-width .ui-resizable-s  { bottom:0; left: 50%; }
+.cm-s-foswiki .CodeMirror-width .ui-resizable-w  { left:0; top:50%; }
+.cm-s-foswiki .CodeMirror-width .ui-resizable-nw { left:0; top:0; }
+.cm-s-foswiki .CodeMirror-width .ui-resizable-ne { top:0; right:0; }
+.cm-s-foswiki .CodeMirror-width .ui-resizable-sw { bottom:0; left:0; }
+.cm-s-foswiki .CodeMirror-width .ui-resizable-se { bottom:0; right:0; }
+
+.cm-s-foswiki .cm-verbatim { background-color:#f6f6f6; }
+.cm-s-foswiki .cm-keyword {color: #708;}
+.cm-s-foswiki .cm-atom {color: blue; }
+.cm-s-foswiki .cm-number {color: #164;}
+.cm-s-foswiki .cm-def {color: #00f;}
+
+.cm-s-foswiki .cm-variable {color: black;}
+.cm-s-foswiki .cm-variable-2 {color: #05a;}
+.cm-s-foswiki .cm-variable-3 {color: #085;}
+
+.cm-s-foswiki .cm-property {color: black;}
+.cm-s-foswiki .cm-operator {color: black;}
+.cm-s-foswiki .cm-comment {color: #a50;}
+
+.cm-s-foswiki .cm-string {color: #a11;}
+.cm-s-foswiki .cm-string-2 {color: #f50;}
+
+.cm-s-foswiki .cm-meta {color: #555;}
+
+.cm-s-foswiki .cm-qualifier {color: #555;}
+.cm-s-foswiki .cm-builtin {color: #30a;}
+.cm-s-foswiki .cm-bracket {color: #997;}
+
+.cm-s-foswiki .cm-tag {color: #170;}
+.cm-s-foswiki .cm-attribute {color: #00c;}
+
+.cm-s-foswiki .cm-quote {color: #090;}
+.cm-s-foswiki .cm-hr { 
+  color: #708; 
+  font-weight:bold; 
+}
+.cm-s-foswiki .cm-link { text-decoration:underline; }
+.cm-s-foswiki .cm-error {color: #f00;}
+
+.cm-s-foswiki .cm-mono {
+  /*font-family:"Bitstream Vera Sans Mono", "Andale Mono", monospace;*/
+  font-family:monospace;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  padding: 0px 2px;
+  font-size:95%;
+}
+div.CodeMirror-cursors {
+  z-index:10;
+}
+
+.cm-s-foswiki .cm-header {
+  display:block;
+  font-weight:normal;
+  color:#2375C5;
+  color:#333;
+  font-weight:bold;
+}
+.cm-s-foswiki .cm-header .cm-tag {
+  color:#333;
+}
+.cm-s-foswiki .cm-h1 {
+  font-size: 125%;
+}
+.cm-s-foswiki .cm-h2 { 
+  font-size: 120%;
+}
+.cm-s-foswiki .cm-h3 { 
+  font-size: 115%;
+}
+.cm-s-foswiki .cm-h4 { 
+  font-size: 110%;
+}
+.cm-s-foswiki .cm-h5 { 
+  font-size: 105%;
+}
+.cm-s-foswiki .cm-h6 { 
+  font-size: 100%;
+}
+
+.CodeMirror-foldmarker {
+/*
+  color: blue;
+  font-family: arial;
+  line-height: .3;
+  cursor: pointer;
+  margin-left:1em;
+*/
+  display:none;
+}
+.CodeMirror-foldgutter {
+  width: 1.5em;
+}
+.CodeMirror-foldgutter-open,
+.CodeMirror-foldgutter-folded {
+  cursor: pointer;
+  font-size:125%;
+  line-height:125%;
+  text-align:center;
+}
+.CodeMirror-foldgutter-open:hover,
+.CodeMirror-foldgutter-folded:hover {
+  color:#b22222;
+}
+.CodeMirror-foldgutter-open:after {
+  content: "\25BE";
+}
+.CodeMirror-foldgutter-folded:after {
+  content: "\25B8";
+}

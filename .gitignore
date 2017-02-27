@@ -1,0 +1,11 @@
+*.gz
+*.jslint
+tmp
+attic
+*.swp
+pub/System/CodeMirrorContrib/jquery.codemirror.js
+pub/System/CodeMirrorContrib/lib/codemirror.css
+pub/System/CodeMirrorContrib/lib/codemirror.js
+pub/System/CodeMirrorContrib/mode/foswiki/foswiki.js
+pub/System/CodeMirrorContrib/widgets/widgets.js
+pub/System/CodeMirrorContrib/widgets/widgets.uncompressed.js
