@@ -146,13 +146,13 @@
       // macro w/o attributes
       if ((match = stream.match(simpleMacroRegExp, 1))) {
         //state.macroName = match[1];
-        return "tag "+match[1];
+        return "tag";
       }
 
       // macros start
       if ((match = stream.match(macroStartRegExp, 1))) {
         state.macroName = match[1];
-        return "tag "+state.macroName;
+        return "tag";
       }
 
       // macro end

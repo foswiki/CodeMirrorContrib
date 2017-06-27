@@ -5,6 +5,10 @@
   overflow-y: hidden;
   overflow-x: auto;
 }
+.cm-s-foswiki .CodeMirror-dialog input {
+  width:100%;
+  box-shadow:none;
+}
 .cm-s-foswiki {
   margin:0px;
   border:1px solid #ccc;
@@ -12,6 +16,7 @@
   background:#fff;
   font-size:12px;
   color:inherit;
+  box-sizing:border-box;
 }
 .cm-s-foswiki,
 .cm-s-foswiki pre {
@@ -116,8 +121,10 @@
   padding: 0px 2px;
   font-size:95%;
 }
+.cm-fat-cursor div.CodeMirror-cursors,
 div.CodeMirror-cursors {
   z-index:10;
+  opacity:0.8;
 }
 
 .cm-s-foswiki .cm-header {
